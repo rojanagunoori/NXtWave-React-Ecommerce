@@ -119,6 +119,8 @@ class LoginForm extends Component {
           />
           <div className="input-container">{this.renderUsernameField()}</div>
           <div className="input-container">{this.renderPasswordField()}</div>
+          <p className="show">username1:rahul,password1:rahul@2021</p>
+          <p className="show">username2:raja,password2:raja@2021</p>
           <button type="submit" className="login-button">
             Login
           </button>
